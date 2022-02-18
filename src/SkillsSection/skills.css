@@ -1,0 +1,40 @@
+
+.logo {
+    min-width: auto;
+    min-height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+}
+
+.skills-section {
+    padding-top: 150px;
+    font-size: 2rem;
+    background-color: #222;
+    /* text-align: center; */
+    padding-bottom:20px ;
+}
+.skills-section h2 {
+    margin-bottom: 100px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.skill-container {
+    width: 40%;
+    margin: 0 auto 170px;
+    text-align: center;
+}
+.skill-container h3 {
+    margin: 50px 0 10px;
+}
+@media (max-width:800px) {
+    .skill-container {
+        width: 80%;
+    }
+    .logo {
+        max-width: 250px;
+        max-height: 250px;
+    }
+
+}

@@ -1,0 +1,25 @@
+.divider {
+    position: relative;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.divider svg {
+    position: relative;
+    display: block;
+    width: calc(176% + 1.3px);
+    height: 211px;
+}
+
+.divider .shape-fill {
+    fill: #222;
+}
+@media (max-width:750px) {
+    .divider svg {
+        height: 102px;
+    }
+}

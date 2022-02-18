@@ -1,0 +1,66 @@
+.curve-1 {
+    position: absolute;
+    position: relative;
+    bottom: -1%;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.curve-1 svg {
+    position: relative;
+    display: block;
+    bottom: -10px;
+    width: 100%;
+    width: calc(211% + 1.3px);
+    height: 350px;
+    transform: rotateY(180deg);
+}
+
+.curve-1 .shape-fill {
+    fill: #222;
+}
+
+.curve-2 {
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -2;
+}
+
+.curve-2 svg {
+    position: relative;
+    display: block;
+    width: calc(211% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.curve-2 .shape-fill {
+    fill: #111;
+}
+.background {
+    background-color: transparent;
+    position:absolute;
+    bottom: 0;
+}
+@media (max-width:750px) {
+    .background {
+        position: relative;
+        bottom: 0;
+        /* top: 110vh  */
+    }
+    .curve-1 svg{
+        height: 200px
+
+    }
+    .curve-2 svg {
+        height: 350px;
+    }
+    
+}

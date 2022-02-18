@@ -1,0 +1,10 @@
+.intro-section {
+    margin: 0;
+    height: 100vh;
+
+}
+@media (max-width:750px) {
+    .intro-section {
+        height: fit-content;
+    }
+}

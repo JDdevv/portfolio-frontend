@@ -1,0 +1,40 @@
+.navbar {
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -20%;
+    z-index: 2;
+    background-color: #000;
+    transition: top 2s, height 1s;
+    width: 100%;
+}
+
+
+/* HEADING */
+.navbar-heading {
+    font-size: 1.5rem;
+    margin: 15px 10px;
+}
+
+.navbar-animation {
+    top: 0;
+}
+
+
+@media ( max-width : 750px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        transition: height 1s, top 2s;
+    }
+    .navbar-heading {
+        margin: 15px 20px;
+        width: 50%;
+        flex: 2;
+   }
+      
+}

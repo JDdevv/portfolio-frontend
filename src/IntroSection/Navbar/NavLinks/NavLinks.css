@@ -1,0 +1,45 @@
+/* CONTAINER */
+.nav-links-container {
+    transition: height 500ms;
+    overflow: hidden;
+}
+/* LIST OF LINKS */
+.nav-links {
+    list-style: none;
+    display: flex;
+    color: #fff;
+}
+/* LIST ITEM */
+.nav-button {
+    padding: 20px;
+}
+.nav-button:hover {
+    background-color: #222;
+}
+/* LINK */
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* CELLPHONE VIEW */
+@media (max-width:750px) {
+    .nav-links-container {
+        height: 0;
+        overflow: hidden;
+        font-size: 1.30rem;
+        
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        width: 100vw;
+    }
+    .nav-button {
+        padding: 20px;
+    }
+    .nav-links-animation {
+        height: 260px;
+    }
+}

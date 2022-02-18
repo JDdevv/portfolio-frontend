@@ -1,0 +1,18 @@
+.toggler-button {
+    width: 60px;
+    height: 40px;
+   display: flex;
+    flex: 1; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toggler-button span {
+    width: 55px;
+    height: 5px;
+    border-radius: 5px;
+
+    background-color: #fff;
+    
+}
